@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Meta For character encoding -->
+<meta charset="utf-8">
+<!-- Meta For Chrome Frame -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!--  Meta For Description -->
+<meta name="description" content="">
+<!--  Meta For Responsive -->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Moving Hotspots on Video</title>
+<!-- Slick Slider -->
+<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+<!--Simple Files-->
+<link rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+<style>
+    p{display: inline;font-size: 18px;}
+    span{color: red;font-weight: bold}
+</style>
+<p>Top:<span id="top-class">100</span></p>
+<p>Left:<span id="left-class">100</span></p>
+
+
+<div class="moving-hotspots">
+  <div class="video-item">
+    <video class="myVideo" id="Tanmoy-1" loop controls>
+        <source src="videos/oceans.mp4" type="video/mp4" />
+        <source src="videos/oceans.ogv" type="video/ogg" />
+        <source src="videos/oceans.webm" type="video/webm" />
+        <p>Your browser does not support HTML5 video.</p>
+    </video>  
+  </div>
+  <div class="video-item">
+     <video class="myVideo" id="Tanmoy-2" preload="auto" loop controls>
+        <source src="videos/aagadu.mp4" type="video/mp4" />
+        <p>Video is not supported</p>
+    </video>
+  </div>
+  <div class="video-item">
+    <video class="myVideo" id="Tanmoy-3" loop controls>
+        <source src="videos/I'm Sorry.MP4" type="video/mp4" />
+        <p>Your browser does not support HTML5 video.</p>
+    </video>
+  </div>
+</div>
+
+
+
+
+<!-- Jquery Files -->
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<!-- Simple JavaScript Files -->
+<script src="js/simple.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+html,
+body{
+    width:100%;
+    height: 100%;
+    float: left;
+    padding: 0;
+    margin:0;
+}
+
+.moving-hotspots{
+    width:95%;
+    height:95%;
+    margin:0 auto;
+    position: relative;
+    overflow: hidden;
+    background-color: #B9F6CA;
+    top: 50%;
+    -webkit-transform: -webkit-translateY(-50%);
+       -moz-transform: -moz-translateY(-50%);
+        -ms-transform: -ms-translateY(-50%);
+         -o-transform: -o-translateY(-50%);
+            transform: translateY(-50%);
+}
+
+.video-item{
+    background-color: #000000;
+    height: 100%;
+}
+
+.video-item video,
+.video-item source{
+    float: left;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* Slick Slider Class */
+.slick-list,
+.slick-track{
+    width: 100%; 
+    height: 100%;
+    float: left
+}
+
+.slick-prev{left: 25px}
+
+.slick-next:hover,
+.slick-next{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    position: absolute;
+    background-color: red !important;
+    right:0;
+    /*top: 0;*/
+}
